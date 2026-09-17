@@ -81,7 +81,7 @@
       document.getElementById("portal").href = SERVICE + "/portal?key=" + encodeURIComponent(key);
       if (res.body.trial_end) {
         var end = new Date(res.body.trial_end * 1000);
-        document.getElementById("billing").textContent = "Your first charge of $199.99 is on " + end.toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" }) + ". Cancel before then and you won't be charged.";
+        document.getElementById("billing").textContent = "Your first charge of $199.00 is on " + end.toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" }) + ". Cancel before then and you won't be charged.";
       }
       document.getElementById("copy").addEventListener("click", function () {
         navigator.clipboard.writeText(key).then(function () { document.getElementById("copied").textContent = "Copied."; }, function () { document.getElementById("copied").textContent = "Select the key and copy it."; });
