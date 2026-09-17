@@ -69,7 +69,7 @@
     <p>Open <strong>Monthly cycle</strong>, type <code>2026-08</code> and click <strong>Load month</strong>. Add <code>sources/manufacturer_month.csv</code> with the <em>manufacturer</em> profile and <code>sources/importer_month.csv</code> with the <em>importer</em> profile. Both are in the practice folder.</p>
 
     <h3 id="prepare">4. Prepare the month</h3>
-    <p>Click <strong>Prepare this month</strong>. LeafLedger reads every row, checks every captured rule and renders the drafts. The engine status should be <strong>READY TO FILE</strong> and the monthly preparation <strong>REVIEW REQUIRED</strong>.</p>
+    <p>Click <strong>Prepare this month</strong>. LeafLedger reads every row, checks every captured rule and renders the drafts. The status should show numbers <strong>RECONCILED</strong> and the month <strong>REVIEW REQUIRED</strong>.</p>
 
     <h3 id="review">5. Read the review</h3>
     <p>Open <strong>Review &amp; export</strong>. Two kinds of item stay open on purpose: <code>MISSING_OFFICIAL_SUPPORT</code> (the official copy of a form is not among the evidence) and <code>OFFICIAL_RENDERING_UNVALIDATED</code> (drafts are watermarked). Scroll to the draft lines: line 7.d, opening stock, is 100,000 sticks, and every number names the source rows behind it. Open a PDF. Nothing here is submitted.</p>
@@ -84,12 +84,13 @@
     <ul class="check">
       <li>Practice workspace opened, setup complete</li>
       <li>Two source files added for 2026-08</li>
-      <li>Month prepared: engine READY TO FILE</li>
+      <li>Month prepared: numbers RECONCILED</li>
       <li>Draft lines read; a PDF opened</li>
       <li>Missing-fact exercise done and mapping restored</li>
       <li>Backup created</li>
     </ul>
-    <p class="muted">Questions: <a href="mailto:support@getleafledger.com">support@getleafledger.com</a> · <a href="./">Back to getleafledger.com</a></p>
+    <p class="muted">Questions: <a href="mailto:support@getleafledger.com">support@getleafledger.com</a></p>
+    <p><a class="button button-lime" href="./">← Back to getleafledger.com</a></p>
   </main>
 </body>
 </html>
