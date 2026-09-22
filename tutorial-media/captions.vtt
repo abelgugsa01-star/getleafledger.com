@@ -1,151 +1,163 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:05.892
+00:00:00.000 --> 00:00:18.720
+Before the walkthrough, here is how you get LeafLedger. On getleafledger.com, click Start free month. Checkout is handled by Stripe. A card is required, nothing is charged for thirty days, and you can cancel before then from your billing page.
+
+00:00:19.020 --> 00:00:31.450
+After checkout you land on your welcome page. It shows your license key and the download link. Keep the key somewhere safe; it is also kept with your subscription.
+
+00:00:31.750 --> 00:00:43.720
+Run the installer once, and a LeafLedger icon appears on your desktop. The first time it opens, read the one-time agreement, tick the box, and click I agree.
+
+00:00:44.020 --> 00:00:56.350
+Paste your license key and click Activate, then name your workspace folder. The key is the only thing LeafLedger ever sends anywhere. Now the walkthrough begins.
+
+00:00:56.650 --> 00:01:02.542
 Welcome to LeafLedger. This walkthrough uses real application screens and fictional
 
-00:00:05.892 --> 00:00:11.784
+00:01:02.542 --> 00:01:08.434
 practice records for two made-up companies, Riverbend Tobacco Works and Harbor Leaf
 
-00:00:11.784 --> 00:00:18.101
+00:01:08.434 --> 00:01:14.751
 Imports. Nothing here is a real business, and nothing you see is submitted to any agency.
 
-00:00:18.101 --> 00:00:24.419
+00:01:14.751 --> 00:01:21.069
 LeafLedger runs on your own computer, and your records stay there. The overview shows the
 
-00:00:24.419 --> 00:00:30.240
+00:01:21.069 --> 00:01:26.890
 four steps of every month: complete setup, add the month's files, prepare, review.
 
-00:00:32.240 --> 00:00:38.330
+00:01:28.890 --> 00:01:34.980
 Setup is where you describe the business exactly as TTB and FDA know it. The practice
 
-00:00:38.330 --> 00:00:44.562
+00:01:34.980 --> 00:01:41.212
 workspace is already filled in: the companies, each permit with its number, the product
 
-00:00:44.562 --> 00:00:50.939
+00:01:41.212 --> 00:01:47.589
 classes each permit reports, and the products with their units. For your own business you
 
-00:00:50.939 --> 00:00:56.670
+00:01:47.589 --> 00:01:53.320
 enter this once. LeafLedger never fills in a fact it cannot verify; it asks you.
 
-00:00:58.670 --> 00:01:04.494
+00:01:55.320 --> 00:02:01.144
 Next, the source file layouts tell LeafLedger which column in your monthly export holds
 
-00:01:04.494 --> 00:01:10.319
+00:02:01.144 --> 00:02:06.969
 which fact. You can use the standard column names, or type the headings your own system
 
-00:01:10.319 --> 00:01:16.277
+00:02:06.969 --> 00:02:12.927
 produces. Below that, the account mapping links every value in your Account column to one
 
-00:01:16.277 --> 00:01:22.034
+00:02:12.927 --> 00:02:18.684
 reporting transaction type. An account that is not mapped stops the month. It is never
 
-00:01:22.034 --> 00:01:22.570
+00:02:18.684 --> 00:02:19.220
 guessed.
 
-00:01:24.570 --> 00:01:31.138
+00:02:21.220 --> 00:02:27.788
 Open Monthly cycle, type the reporting month, here August 2026, and click Load month. Each
 
-00:01:31.138 --> 00:01:37.559
+00:02:27.788 --> 00:02:34.209
 month has its own source files and its own results, and nothing from an earlier month is
 
-00:01:37.559 --> 00:01:38.800
+00:02:34.209 --> 00:02:35.450
 ever overwritten.
 
-00:01:40.800 --> 00:01:46.110
+00:02:37.450 --> 00:02:42.760
 Add the month's export files. In the practice set, that is one file from the
 
-00:01:46.110 --> 00:01:52.048
+00:02:42.760 --> 00:02:48.698
 manufacturer's records and one from the importer's, chosen with the matching profile.
 
-00:01:52.048 --> 00:01:58.056
+00:02:48.698 --> 00:02:54.706
 LeafLedger stores each file exactly as supplied and records its fingerprint, so a file
 
-00:01:58.056 --> 00:02:01.270
+00:02:54.706 --> 00:02:57.920
 that changes later can never be used silently.
 
-00:02:03.270 --> 00:02:09.421
+00:02:59.920 --> 00:03:06.071
 Click Prepare this month. LeafLedger reads every row, checks every captured regulation,
 
-00:02:09.421 --> 00:02:15.430
+00:03:06.071 --> 00:03:12.080
 and renders the draft forms. On the first month there is no earlier filing to compare
 
-00:02:15.430 --> 00:02:21.298
+00:03:12.080 --> 00:03:17.948
 against; from the second month on, last month's filing is selected automatically so
 
-00:02:21.298 --> 00:02:25.540
+00:03:17.948 --> 00:03:22.190
 opening stock is checked against the previous closing stock.
 
-00:02:27.540 --> 00:02:33.760
+00:03:24.190 --> 00:03:30.410
 Each preparation is archived with a time stamp and a result. The practice month comes back
 
-00:02:33.760 --> 00:02:39.841
+00:03:30.410 --> 00:03:36.491
 as Review required. That is the normal outcome: the numbers reconcile, and LeafLedger is
 
-00:02:39.841 --> 00:02:43.020
+00:03:36.491 --> 00:03:39.670
 telling you what still needs a human decision.
 
-00:02:45.020 --> 00:02:51.757
+00:03:41.670 --> 00:03:48.407
 Review and export shows two things side by side. Numbers reconciled means every row added
 
-00:02:51.757 --> 00:02:58.266
+00:03:48.407 --> 00:03:54.916
 up, with zero blocking exceptions. Month, review required, means something still needs
 
-00:02:58.266 --> 00:03:05.079
+00:03:54.916 --> 00:04:01.729
 your attention. The open items below each say what to do: here, the official copies of the
 
-00:03:05.079 --> 00:03:10.680
+00:04:01.729 --> 00:04:07.330
 forms are not yet among the evidence. LeafLedger flags; it does not guess.
 
-00:03:12.680 --> 00:03:19.157
+00:04:09.330 --> 00:04:15.807
 Further down are the draft forms, line by line. Line 7.d, the opening stock, is 100,000
 
-00:03:19.157 --> 00:03:25.709
+00:04:15.807 --> 00:04:22.359
 sticks, and beside it LeafLedger names the source rows that produced it. Every number on
 
-00:03:25.709 --> 00:03:32.410
+00:04:22.359 --> 00:04:29.060
 every form traces back to your own records. Zero lines are folded away so you can read the
 
-00:03:32.410 --> 00:03:33.750
+00:04:29.060 --> 00:04:30.400
 lines that matter.
 
-00:03:35.750 --> 00:03:42.568
+00:04:32.400 --> 00:04:39.218
 Each form is also rendered as a PDF on the official template, with the certification left
 
-00:03:42.568 --> 00:03:49.234
+00:04:39.218 --> 00:04:45.884
 blank. While anything is unresolved, the copy is stamped as a draft. You review it, you
 
-00:03:49.234 --> 00:03:54.520
+00:04:45.884 --> 00:04:51.170
 sign it, you file it. LeafLedger never files anything on your behalf.
 
-00:03:56.520 --> 00:04:02.110
+00:04:53.170 --> 00:04:58.760
 At the bottom of the review page is the reviewed copies card. When nothing is left
 
-00:04:02.110 --> 00:04:08.108
+00:04:58.760 --> 00:05:04.758
 unresolved, you enter your name and mark the month reviewed, and LeafLedger writes clean
 
-00:04:08.108 --> 00:04:14.175
+00:05:04.758 --> 00:05:10.825
 copies without the draft stamp, still unsigned. Until then, the card explains exactly why
 
-00:04:14.175 --> 00:04:20.037
+00:05:10.825 --> 00:05:16.687
 the button is not there yet: each open item, and what to do about it. A clean copy can
 
-00:04:20.037 --> 00:04:22.900
+00:05:16.687 --> 00:05:19.550
 never exist for a month with an open item.
 
-00:04:24.900 --> 00:04:31.152
+00:05:21.550 --> 00:05:27.802
 History lists every preparation ever made. Corrections are recorded as new versions that
 
-00:04:31.152 --> 00:04:37.405
+00:05:27.802 --> 00:05:34.055
 supersede the old ones; nothing is deleted, so you can always show what you prepared and
 
-00:04:37.405 --> 00:04:37.760
+00:05:34.055 --> 00:05:34.410
 when.
 
-00:04:39.760 --> 00:04:46.461
+00:05:36.410 --> 00:05:43.111
 Finally, create an encrypted backup with a passphrase you choose. The passphrase is never
 
-00:04:46.461 --> 00:04:53.086
+00:05:43.111 --> 00:05:49.736
 stored, so keep it safe. That is the whole routine: setup once, then every month add the
 
-00:04:53.086 --> 00:04:56.700
+00:05:49.736 --> 00:05:53.350
 files, prepare, and review. Thanks for watching.
