@@ -1,3 +1,29 @@
+# LeafLedger
+
+**Tobacco reporting and monthly reconciliation.** Windows software for domestic tobacco manufacturers and importers preparing TTB 5210.5, TTB 5220.6 and FDA 3852 report drafts.
+
+Import production, shipping, transfer and inventory records; reconcile balances and review exceptions before preparing source-linked report drafts. The permit holder reviews, signs and files.
+
+## Try LeafLedger
+
+[Visit the official website and start a 30-day free trial](https://getleafledger.com/?utm_source=github&utm_medium=referral&utm_campaign=product_readme).
+
+No charge during the trial. The subscription is **$199/month after the trial**. Review the current offer and terms on the official website.
+
+## Guides and tools
+
+- [First-month walkthrough](https://getleafledger.com/tutorial.html)
+- [TTB 5210.5 reporting guide](https://getleafledger.com/ttb-5210-5-monthly-report.html)
+- [FDA 3852 reporting guide](https://getleafledger.com/fda-3852-tobacco-user-fee-report.html)
+
+## Support
+
+Questions about fit or setup: [support@getleafledger.com](mailto:support@getleafledger.com). Built by [Profitpin LLC](https://profitpingroup.com/).
+
+---
+
+## Website maintenance
+
 # getleafledger.com
 
 Public marketing site for LeafLedger, served by GitHub Pages at
